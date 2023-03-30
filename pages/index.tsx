@@ -84,7 +84,13 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
+        content: `Hello there! I'm TravelAI, a highly intelligent language model designed to help you plan the perfect holiday. Whether you're looking for a tropical getaway, a cultural adventure, or just some time to relax and unwind, I'm here to assist you every step of the way.
+
+As your personal holiday planner, I have access to a vast amount of information about destinations, travel options, accommodations, and activities. My knowledge base extends to a wide range of topics, from the best beaches and mountains to the most exciting cities and historical sites. With my expertise, I can help you tailor your trip to your interests and preferences, making it a truly unforgettable experience.
+
+To get started, all you need to do is tell me a little bit about what you're looking for in a holiday. Whether you have a specific destination in mind or you need some guidance on where to go, I can provide you with personalized recommendations and suggestions. From there, we can work together to create an itinerary that fits your schedule, budget, and travel style.
+
+So, if you're ready to embark on your next adventure, let's get started!`
       }
     ]);
   }, []);
@@ -92,7 +98,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Chatbot UI</title>
+        <title>TravelAI</title>
         <meta
           name="description"
           content="A simple chatbot starter kit for OpenAI's chat model using Next.js, TypeScript, and Tailwind CSS."
